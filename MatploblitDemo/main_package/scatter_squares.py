@@ -16,6 +16,6 @@ pyplot.tick_params(axis="both", which="major", labelsize=14)
 
 # 设置每个坐标轴的取值范围
 pyplot.axis([0, 1100, 0, 1100000])
-# pyplot.show()
+pyplot.show()
 # 保存图表
 pyplot.savefig('D:\squares_plot.png', bbox_inches="tight")
